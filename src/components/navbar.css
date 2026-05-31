@@ -89,5 +89,14 @@ body{
   text-decoration: none;
 }
 .navlinks a.active {
-  color: blue;
+  background: linear-gradient(
+    90deg,
+    #8b5cf6,
+    #a855f7,
+    #c084fc
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 600;
 }

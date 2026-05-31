@@ -84,3 +84,10 @@ body{
 .navlinks li a:hover::after{
     width:100%;
 }
+.navlinks a {
+  color: white;
+  text-decoration: none;
+}
+.navlinks a.active {
+  color: blue;
+}

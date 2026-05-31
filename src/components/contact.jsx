@@ -12,7 +12,9 @@ const contact = () => {
         problems.<br/> Drop a message- I usually respond fast.
         </p>
         <div className="butt">
-            <a href="mailto:rudrakshia30@gmail.com">EMAIL</a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rudrakshia30@gmail.com"
+  target="_blank"
+  rel="noopener noreferrer">EMAIL</a>
             <a href="https://github.com/rudrakshia30">GITHUB</a>
             <a href="https://www.linkedin.com/in/rudrakshi-agarwal-264847379/">LINKEDIN</a>
         </div>

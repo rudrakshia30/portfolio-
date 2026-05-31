@@ -1,22 +1,23 @@
 import React from 'react'
+import './contact.css'
 const contact = () => {
   return (
-    <div>
+    <div className='contact'>
         <h1>
-        Let's build <br/>
-        something
+        Let's <span>build </span><br/>
+        something.
         </h1>
-        <p>
+        <p className='intro'>
         open to internship, collaborations, and intersting
-        problems. Drop a message- I usually respond fast.
+        problems.<br/> Drop a message- I usually respond fast.
         </p>
         <div className="butt">
-            <a href="#">EMAIL</a>
-            <a href="#">GITHUB</a>
-            <a href="#">LINKEDIN</a>
+            <a href="mailto:rudrakshia30@gmail.com">EMAIL</a>
+            <a href="https://github.com/rudrakshia30">GITHUB</a>
+            <a href="https://www.linkedin.com/in/rudrakshi-agarwal-264847379/">LINKEDIN</a>
         </div>
         <footer>
-        <p>© 2025 — Designed & Developed by me</p>
+        <p>© 2026 — Designed & Developed by me</p>
         <p>Aspiring Software & AI Engineer</p>
         </footer>
     </div>

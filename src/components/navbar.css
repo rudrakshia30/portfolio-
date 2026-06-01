@@ -35,6 +35,7 @@ body{
     -webkit-text-fill-color:transparent;
     background-clip:text;
     cursor:pointer;
+
 }
 .navlinks{
     display:flex;
@@ -99,4 +100,16 @@ body{
   -webkit-text-fill-color: transparent;
   background-clip: text;
   font-weight: 600;
+}
+.navbar{
+    animation: slideDown 0.8s ease;
+}
+
+@keyframes slideDown{
+    from{
+        transform:translateY(-30px);
+    }
+    to{
+        transform:translateY(0);
+    }
 }

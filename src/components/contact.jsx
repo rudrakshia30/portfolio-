@@ -15,8 +15,8 @@ const contact = () => {
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rudrakshia30@gmail.com"
   target="_blank"
   rel="noopener noreferrer">EMAIL</a>
-            <a href="https://github.com/rudrakshia30">GITHUB</a>
-            <a href="https://www.linkedin.com/in/rudrakshi-agarwal-264847379/">LINKEDIN</a>
+            <a href="https://github.com/rudrakshia30" target="_blank" rel="noopener noreferrer">GITHUB</a>
+            <a href="https://www.linkedin.com/in/rudrakshi-agarwal-264847379/" target="_blank" rel="noopener noreferrer">LINKEDIN</a>
         </div>
         <footer>
         <p>© 2026 — Designed & Developed by me</p>

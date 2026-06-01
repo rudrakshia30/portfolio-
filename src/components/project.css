@@ -20,6 +20,7 @@ h2 {
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
+  animation: projectReveal 0.8s ease forwards;
 }
 .card::before {
   content: "";
@@ -73,8 +74,16 @@ h2 {
   z-index: 1;
 }
 .card a:hover {
-  transform: scale(1.05);
   box-shadow:
     0 0 15px rgba(96, 165, 250, 0.4),
     0 0 25px rgba(139, 92, 246, 0.4);
+}
+@keyframes projectReveal{
+    from{
+
+        transform:translateY(50px);
+    }
+    to{
+        transform:translateY(0);
+    }
 }

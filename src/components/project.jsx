@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import './project.css'
 function GithubRepos() {
   const [repos, setRepos] = useState([]);
   useEffect(() => {

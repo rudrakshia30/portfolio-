@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './skills.css'
 const skills = () => {
   return (
     <div>
@@ -10,7 +10,7 @@ const skills = () => {
                 <h3>PROGRAMMING</h3>
                 <ul>
                     <li>Python</li>
-                    <li>c/C++</li>
+                    <li>C/C++</li>
                     <li>JavaScript</li>
                     <li>React</li>
                     <li>HTML</li>

@@ -12,7 +12,7 @@ function GithubStats() {
   if (!data) return <h3>Loading...</h3>;
   return (
     <div className="stats">
-      <h2>GitHub Stats</h2>
+      <h2>GitHub Stats <img src={data.avatar_url} width="100" /></h2>
       <p><b>Username:</b> {data.login}</p>
       <p><b>Public Repos:</b> {data.public_repos}</p>
       <p><b>Followers:</b> {data.followers}</p>

@@ -21,6 +21,7 @@
     line-height: 0.95;
     margin-bottom: 32px;
     letter-spacing: 3px;
+    animation: zoomIn 1s ease;
 }
 .contact span{
     background: linear-gradient(
@@ -62,4 +63,12 @@ footer{
     text-align: center;
     color: #9ca3af;
     margin-bottom: -100px;
+}
+@keyframes zoomIn{
+    from{
+        transform:scale(0.8);
+    }
+    to{
+        transform:scale(1);
+    }
 }

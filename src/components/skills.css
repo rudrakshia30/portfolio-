@@ -30,6 +30,7 @@ h1 {
   margin-left: 10px;
   margin-right: 10px;
   transition: all 0.3s ease;
+  animation: fadeUp 0.8s ease forwards;
 }
 .category::before {
   content: "";
@@ -71,4 +72,14 @@ h1 {
 .category li:hover {
   color: #b388ff;
   padding-left: 8px;
+}
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
 }

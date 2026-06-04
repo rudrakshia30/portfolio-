@@ -78,14 +78,11 @@ body{
 }
 .pfp{
     position:relative;
-    width:600px;
-    height:600px;
+    width:100%;
+    max-width:500px;
     display:flex;
     justify-content:center;
     align-items:center;
-    margin-left: 230px;
-    margin-top: 0px;
-     top: -150px;
 }
 .pfp::before{
     content:"";
@@ -115,4 +112,17 @@ body{
         #8b5cf6
     );
     z-index:1;
+}
+@media(max-width:900px){
+    .home{
+        flex-direction:column-reverse;
+        text-align:center;
+        gap:50px;
+        padding:60px 8%;
+    }
+
+    .pfp{
+        margin-left:0;
+        top:0;
+    }
 }

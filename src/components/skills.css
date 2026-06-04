@@ -2,36 +2,40 @@ body {
   background: #050b1a;
   color: white;
 }
+
 .sec {
   display: block;
   color: #8fb8ff;
   letter-spacing: 3px;
   font-size: 16px;
   font-weight: 600;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin: 30px 8% 10px;
 }
+
 h1 {
-  font-size: 40px;
-  margin-bottom: 47px;
+  font-size: clamp(32px, 5vw, 48px);
+  margin: 0 8% 47px;
   color: white;
 }
+
 .grid {
+  width: 90%;
+  margin: auto;
   display: grid;
-  grid-template-columns: repeat(4,1fr );
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   gap: 20px;
 }
+
 .category {
   background: rgba(14, 25, 53, 0.9);
   border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 0px;
+  border-radius: 18px;
   padding: 25px;
   position: relative;
-  margin-left: 10px;
-  margin-right: 10px;
   transition: all 0.3s ease;
   animation: fadeUp 0.8s ease forwards;
 }
+
 .category::before {
   content: "";
   position: absolute;
@@ -40,12 +44,7 @@ h1 {
   height: 4px;
   width: 100%;
   border-radius: 18px 18px 0 0;
-  background: linear-gradient(
-    90deg,
-    #4facfe,
-    #7b61ff,
-    #b388ff
-  );
+  background: linear-gradient(90deg, #4facfe, #7b61ff, #b388ff);
 }
 
 .category:hover {
@@ -54,31 +53,46 @@ h1 {
     0 10px 30px rgba(79, 172, 254, 0.15),
     0 10px 40px rgba(123, 97, 255, 0.2);
 }
+
 .category h3 {
   color: #8fb8ff;
   margin-bottom: 20px;
   letter-spacing: 2px;
   font-size: 1rem;
 }
+
 .category li {
   padding: 12px 0;
   color: #e5e9ff;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   transition: all 0.3s ease;
 }
+
 .category li:last-child {
   border-bottom: none;
 }
+
 .category li:hover {
   color: #b388ff;
   padding-left: 8px;
 }
-@keyframes fadeUp{
-    from{
-        transform:translateY(40px);
-    }
-    to{
 
-        transform:translateY(0);
-    }
+@keyframes fadeUp {
+  from {
+    transform: translateY(40px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 480px) {
+  .grid {
+    width: 92%;
+    grid-template-columns: 1fr;
+  }
+
+  .category {
+    padding: 20px;
+  }
 }

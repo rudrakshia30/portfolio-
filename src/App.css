@@ -81,6 +81,7 @@ body{
     width:100%;
     max-width:500px;
     display:flex;
+    flex-direction:column;
     justify-content:center;
     align-items:center;
 }
@@ -112,6 +113,29 @@ body{
         #8b5cf6
     );
     z-index:1;
+}
+.resume-btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 24px;
+
+    background:linear-gradient(
+        90deg,
+        #60a5fa,
+        #8b5cf6
+    );
+
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:600;
+
+    transition:0.3s ease;
+}
+
+.resume-btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 0 20px rgba(139,92,246,0.5);
 }
 @media(max-width:900px){
     .home{

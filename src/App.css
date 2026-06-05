@@ -135,7 +135,7 @@ body{
     );
 
     color: white;
-
+    display: block;
     transition: all 0.3s ease;
 }
 

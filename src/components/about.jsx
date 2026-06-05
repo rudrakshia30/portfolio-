@@ -12,7 +12,16 @@ const about = () => {
           <h2> Future Goals</h2>
           <p className='goals'>Looking ahead, my goal is to become a skilled Software and AI Engineer, contributing to innovative solutions that create meaningful impact. I strive to stay up-to-date with technological advancements, embrace lifelong learning, and grow both personally and professionally through consistency, hard work, smart problem-solving, and a strong desire to keep improving every day.</p>
         </div>
-        <div className="pfp"><img src="/profile.jpeg" alt="Rudrakshi" /></div>
+        <div className="pfp"><img src="/profile.jpeg" alt="Rudrakshi" />
+           <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="resume-btn"
+            >
+              Download Resume
+            </a>
+        </div>
       </div>
   )
 }

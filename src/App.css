@@ -84,6 +84,7 @@ body{
     flex-direction:column;
     justify-content:center;
     align-items:center;
+    z-index:5;
 }
 .pfp::before{
     content:"";
@@ -114,25 +115,21 @@ body{
     );
     z-index:1;
 }
-.resume-btn{
-    display:inline-block;
-    margin-top:20px;
-    padding:12px 24px;
+.resume-btn {
+    position: relative;
+    z-index: 20;
+    pointer-events: auto;
 
-    background:linear-gradient(
-        90deg,
-        #60a5fa,
-        #8b5cf6
-    );
+    margin-top: 25px;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
 
-    color:white;
-    text-decoration:none;
-    border-radius:30px;
-    font-weight:600;
-
-    transition:0.3s ease;
+    background: linear-gradient(90deg, #60a5fa, #8b5cf6);
+    color: white;
+    font-weight: 700;
 }
-
 .resume-btn:hover{
     transform:translateY(-3px);
     box-shadow:0 0 20px rgba(139,92,246,0.5);

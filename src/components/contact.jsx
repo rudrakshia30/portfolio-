@@ -2,7 +2,7 @@ import React from 'react'
 import './contact.css'
 const contact = () => {
   return (
-    <div className='contact'>
+    <div className='contact' data-aos="fade-up">
         <h1>
         Let's <span>build </span><br/>
         something.

@@ -15,7 +15,7 @@ function GithubRepos() {
 
       <div className="container">
         {repos.map((repo) => (
-          <div className="card" key={repo.id}>
+          <div className="card" key={repo.id} data-aos="fade-up">
             <h3>{repo.name}</h3>
             <p>
               {repo.description

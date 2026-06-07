@@ -11,7 +11,7 @@ const Skills = () => {
       <h1>Technologies & Skills</h1>
 
       <div className='grid'>
-        <div className='category'>
+        <div className='category' data-aos="fade-up">
           <h3>PROGRAMMING</h3>
           <ul>
             <li><FaPython /> Python</li>
@@ -23,7 +23,7 @@ const Skills = () => {
           </ul>
         </div>
 
-        <div className='category'>
+        <div className='category' data-aos="fade-up">
           <h3>TOOLS</h3>
           <ul>
             <li><FaGitAlt /> Git</li>
@@ -34,7 +34,7 @@ const Skills = () => {
           </ul>
         </div>
 
-        <div className='category'>
+        <div className='category' data-aos="fade-up">
           <h3>CONCEPTS</h3>
           <ul>
             <li>Data Structures</li>

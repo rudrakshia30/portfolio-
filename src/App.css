@@ -188,3 +188,11 @@ body::after {
     transform: translateY(-40px) scale(1.15);
   }
 }
+.home,
+.contact,
+.stats,
+.grid,
+.container {
+  position: relative;
+  z-index: 1;
+}

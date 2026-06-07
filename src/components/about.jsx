@@ -12,7 +12,7 @@ const about = () => {
 
   return (
     <div className='home'>
-      <div className='h-content'>
+      <div className='h-content' data-aos="fade-right">
         <h3>🟢 AVAILABLE FOR WORK</h3>
         <h1>Rudrakshi Agarwal</h1>
         <p className='subs'>Engineering Student | B.Tech CSE'29</p>

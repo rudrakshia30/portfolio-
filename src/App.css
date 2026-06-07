@@ -15,8 +15,32 @@ body {
             transparent 40%),
         #030712;
     color: white;
+    position: relative;
+    overflow-x: hidden;
+}
+body::before,
+body::after {
+  content: "";
+  position: fixed;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  filter: blur(120px);
+  opacity: 0.45;
+  z-index: -1;
+  animation: floatBlob 8s ease-in-out infinite alternate;
+}
+body::before {
+  top: 120px;
+  left: -100px;
+  background: #60a5fa;
 }
 
+body::after {
+  bottom: 80px;
+  right: -100px;
+  background: #8b5cf6;
+}
 .home {
     min-height: 600px;
     display: flex;
@@ -155,4 +179,12 @@ body {
         margin-left: 0;
         top: 0;
     }
+}
+@keyframes floatBlob {
+  from {
+    transform: translateY(0px) scale(1);
+  }
+  to {
+    transform: translateY(-40px) scale(1.15);
+  }
 }

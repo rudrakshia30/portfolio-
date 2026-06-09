@@ -219,5 +219,5 @@ body::after {
 .grid,
 .container {
   position: relative;
-  
+  z-index: 1;
 }

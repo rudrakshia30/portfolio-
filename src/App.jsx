@@ -21,10 +21,28 @@ function App() {
     });
   }, []);
 
+  useEffect(() => {
+    const cursor = document.querySelector(".cursor-glow");
+
+    const moveCursor = (e) => {
+      cursor.style.left = e.clientX + "px";
+      cursor.style.top = e.clientY + "px";
+    };
+
+    window.addEventListener("mousemove", moveCursor);
+
+    return () => {
+      window.removeEventListener("mousemove", moveCursor);
+    };
+  }, []);
+
   return (
     <>
       <BrowserRouter>
+        <div className="cursor-glow"></div>
+
         <Navbar />
+
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/contact" element={<Contact />} />

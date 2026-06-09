@@ -212,3 +212,12 @@ body::after {
   z-index: 0;
   filter: blur(40px);
 }
+.navbar,
+.home,
+.contact,
+.stats,
+.grid,
+.container {
+  position: relative;
+  z-index: 1;
+}

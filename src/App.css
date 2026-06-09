@@ -196,3 +196,19 @@ body::after {
   position: relative;
   z-index: 1;
 }
+.cursor-glow {
+  position: fixed;
+  width: 220px;
+  height: 220px;
+  background: radial-gradient(
+    circle,
+    rgba(96, 165, 250, 0.35),
+    rgba(139, 92, 246, 0.25),
+    transparent 70%
+  );
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  filter: blur(40px);
+}

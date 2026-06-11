@@ -34,3 +34,10 @@ A modern and responsive **personal portfolio website** built using **React.js** 
 ### Libraries
 - React Router DOM
 - AOS (Animate On Scroll)
+
+### Tools
+- VS Code
+- Git
+- GitHub
+
+---

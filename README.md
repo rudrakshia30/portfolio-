@@ -120,3 +120,10 @@ http://localhost:5173
 - **Email:** your-email@example.com
 
 ---
+
+
+## ⭐ If you like this project
+
+Please consider giving it a **Star ⭐** on GitHub!
+
+---

@@ -8,5 +8,18 @@ A modern and responsive **personal portfolio website** built using **React.js** 
 
 🔗 **Portfolio:** https://portfolio-coral-seven-57.vercel.app/
 
+---
+
+## 📌 Features
+
+- 🏠 Beautiful Home/About section
+- 👩‍💻 Skills showcase
+- 📂 Projects section
+- 📊 GitHub profile integration
+- 📞 Contact page with social links
+- 🎨 Modern gradient theme
+- 📱 Fully responsive design
+- ⚡ Smooth animations and transitions
+- 🔄 React Router based navigation
 
 ---

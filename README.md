@@ -41,3 +41,29 @@ A modern and responsive **personal portfolio website** built using **React.js** 
 - GitHub
 
 ---
+
+## 📂 Project Structure
+
+```text
+Portfolio/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   │   ├── about.jsx
+│   │   ├── contact.jsx
+│   │   ├── navbar.jsx
+│   │   ├── skills.jsx
+│   │   ├── project.jsx
+│   │   └── git.jsx
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+│
+├── package.json
+└── README.md
+```
+
+---

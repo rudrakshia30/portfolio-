@@ -30,3 +30,7 @@ A modern and responsive **personal portfolio website** built using **React.js** 
 - JavaScript (ES6+)
 - HTML5
 - CSS3
+- 
+### Libraries
+- React Router DOM
+- AOS (Animate On Scroll)

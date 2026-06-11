@@ -101,3 +101,13 @@ http://localhost:5173
 ```
 
 ---
+
+## 📖 Sections Included
+
+- About Me
+- Skills
+- Projects
+- GitHub
+- Contact
+
+---

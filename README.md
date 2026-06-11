@@ -23,3 +23,10 @@ A modern and responsive **personal portfolio website** built using **React.js** 
 - 🔄 React Router based navigation
 
 ---
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3

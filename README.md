@@ -127,3 +127,12 @@ http://localhost:5173
 Please consider giving it a **Star ⭐** on GitHub!
 
 ---
+
+## 👩‍💻 Author
+
+**Rudrakshi Agarwal**
+
+B.Tech Computer Science & Engineering  
+Aspiring Software & AI Engineer
+
+---

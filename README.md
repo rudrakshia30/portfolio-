@@ -111,3 +111,12 @@ http://localhost:5173
 - Contact
 
 ---
+
+
+## 📬 Connect With Me
+
+- **GitHub:** https://github.com/your-username
+- **LinkedIn:** https://linkedin.com/in/your-profile
+- **Email:** your-email@example.com
+
+---

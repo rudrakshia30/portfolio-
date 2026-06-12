@@ -66,6 +66,20 @@ Portfolio/
 
 ---
 
+## 📖 Sections Included
+
+| Section | Description |
+|----------|-------------|
+| 🏠 Home | Introduction and overview |
+| 👩 About | Personal information and goals |
+| 🛠 Skills | Technologies and tools |
+| 📂 Projects | Portfolio projects |
+| 📊 GitHub | GitHub repositories/profile |
+| 📞 Contact | Social links and contact details |
+
+---
+
+
 ## ⚙️ Installation
 
 Clone the repository:
@@ -99,20 +113,6 @@ http://localhost:5173
 ```
 
 ---
-
-## 📖 Sections Included
-
-| Section | Description |
-|----------|-------------|
-| 🏠 Home | Introduction and overview |
-| 👩 About | Personal information and goals |
-| 🛠 Skills | Technologies and tools |
-| 📂 Projects | Portfolio projects |
-| 📊 GitHub | GitHub repositories/profile |
-| 📞 Contact | Social links and contact details |
-
----
-
 
 ## 📬 Connect With Me
 

@@ -122,10 +122,13 @@ http://localhost:5173
 
 ---
 
+# ⭐ Support
 
-## ⭐ If you like this project
+If you like this project,
 
-Please consider giving it a **Star ⭐** on GitHub!
+## Please consider giving it a ⭐ on GitHub!
+
+It motivates me to build and share more projects.
 
 ---
 

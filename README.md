@@ -23,22 +23,20 @@ A modern and responsive **personal portfolio website** built using **React.js** 
 - 🔄 React Router based navigation
 
 ---
-## 🛠️ Tech Stack
 
-### Frontend
-- React.js
-- JavaScript (ES6+)
-- HTML5
-- CSS3
-- 
-### Libraries
-- React Router DOM
-- AOS (Animate On Scroll)
+# 🛠 Tech Stack
 
-### Tools
-- VS Code
-- Git
-- GitHub
+| Category | Technologies |
+|----------|--------------|
+| Frontend | React.js |
+| Language | JavaScript (ES6+) |
+| Structure | HTML5 |
+| Styling | CSS3 |
+| Routing | React Router DOM |
+| Animation | AOS (Animate On Scroll) |
+| Version Control | Git |
+| Repository | GitHub |
+| Deployment | Vercel |
 
 ---
 

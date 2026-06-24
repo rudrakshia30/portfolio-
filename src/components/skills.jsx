@@ -22,12 +22,33 @@ const Skills = () => {
             <li><FaCss3Alt /> CSS</li>
           </ul>
         </div>
+        <div className='category' data-aos="fade-up">
+          <h3>FRAMEWORK & TECHNOLOGIES</h3>
+          <ul>
+            <li>FastAPI</li>
+            <li><FaReact /> React</li>
+            <li><FaHtml5 /> HTML</li>
+            <li><FaCss3Alt /> CSS</li>
+          </ul>
+        </div>
+        <div className='category' data-aos="fade-up">
+          <h3>AI/ML & COMPUTER VISION</h3>
+          <ul>
+            <li>Pandas</li>
+            <li>NumPY</li>
+            <li>MatPloLib</li>
+            <li>SeaBorn</li>
+            <li>OpenCV</li>
+            <li>LLM Intergeration</li>
+          </ul>
+        </div>
 
         <div className='category' data-aos="fade-up">
-          <h3>TOOLS</h3>
+          <h3>DEVELOPER TOOLS</h3>
           <ul>
-            <li><FaGitAlt /> Git</li>
+            <li>Excel</li>
             <li><FaGithub /> GitHub</li>
+            <li><FaGitAlt /> Git</li>
             <li>💻 VS Code</li>
             <li><SiFigma /> Figma</li>
             <li><SiCanva /> Canva</li>
@@ -35,9 +56,9 @@ const Skills = () => {
         </div>
 
         <div className='category' data-aos="fade-up">
-          <h3>CONCEPTS</h3>
+          <h3>CORE CONCEPTS</h3>
           <ul>
-            <li>Data Structures</li>
+            <li>Data Structures and Algorithms</li>
             <li>Problem Solving</li>
             <li>OOPS basic</li>
           </ul>

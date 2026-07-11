@@ -3,13 +3,18 @@ import './App.css'
 import Navbar from './components/navbar'
 import Contact from './components/contact'
 import About from './components/about'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Skill from './components/skills'
-import Git from "./components/git";
-import Project from "./components/project";
+import Git from './components/git'
+import Project from './components/project'
 
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from 'react-router-dom'
+
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 function App() {
 
@@ -17,41 +22,61 @@ function App() {
     AOS.init({
       duration: 1000,
       once: true,
-      offset: 120,
-    });
-  }, []);
+      offset: 120
+    })
+  }, [])
+
 
   useEffect(() => {
-    const cursor = document.querySelector(".cursor-glow");
+    const cursor = document.querySelector('.cursor-glow')
 
-    const moveCursor = (e) => {
-      cursor.style.left = e.clientX + "px";
-      cursor.style.top = e.clientY + "px";
-    };
+    function moveCursor(event) {
+      if (!cursor) {
+        return
+      }
 
-    window.addEventListener("mousemove", moveCursor);
+      cursor.style.left =event.clientX + 'px'
+      cursor.style.top =event.clientY + 'px'
+    }
+
+    window.addEventListener('mousemove',moveCursor)
 
     return () => {
-      window.removeEventListener("mousemove", moveCursor);
-    };
-  }, []);
+      window.removeEventListener('mousemove',moveCursor)
+    }
+  }, [])
 
   return (
-    <>
-      <BrowserRouter>
-        <div className="cursor-glow"></div>
+    <BrowserRouter>
 
-        <Navbar />
+      <div className="app">
+        <div
+          className="animated-background"
+          aria-hidden="true"
+        >
+          <div className="background-blob blob-one"></div>
+          <div className="background-blob blob-two"></div>
+          <div className="background-blob blob-three"></div>
+          <div className="background-blob blob-four"></div>
+        </div>
 
-        <Routes>
-          <Route path="/" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/skills" element={<Skill />} />
-          <Route path="/github" element={<Git />} />
-          <Route path="/projects" element={<Project />} />
-        </Routes>
-      </BrowserRouter>
-    </>
+        <div
+          className="cursor-glow"
+          aria-hidden="true"
+        ></div>
+
+        <div className="website-content">
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<About />}/>
+            <Route path="/contact" element={<Contact />}/>
+            <Route path="/skills" element={<Skill />}/>
+            <Route path="/github" element={<Git />}/>
+            <Route path="/projects" element={<Project />}/>
+          </Routes>
+        </div>
+      </div>
+    </BrowserRouter>
   )
 }
 

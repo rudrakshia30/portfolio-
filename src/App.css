@@ -28,16 +28,12 @@ body {
     overflow-x: hidden;
 
     background:
-        radial-gradient(
-            circle at 80% 40%,
+        radial-gradient(circle at 80% 40%,
             rgba(139, 92, 246, 0.15),
-            transparent 42%
-        ),
-        radial-gradient(
-            circle at 20% 30%,
+            transparent 42%),
+        radial-gradient(circle at 20% 30%,
             rgba(96, 165, 250, 0.15),
-            transparent 40%
-        ),
+            transparent 40%),
         #030712;
 }
 
@@ -121,32 +117,27 @@ body {
 @keyframes moveBlob {
     0% {
         transform:
-            translate3d(0, 0, 0)
-            scale(1);
+            translate3d(0, 0, 0) scale(1);
     }
 
     25% {
         transform:
-            translate3d(80px, 45px, 0)
-            scale(1.1);
+            translate3d(80px, 45px, 0) scale(1.1);
     }
 
     50% {
         transform:
-            translate3d(-45px, 95px, 0)
-            scale(0.95);
+            translate3d(-45px, 95px, 0) scale(0.95);
     }
 
     75% {
         transform:
-            translate3d(65px, -55px, 0)
-            scale(1.08);
+            translate3d(65px, -55px, 0) scale(1.08);
     }
 
     100% {
         transform:
-            translate3d(-30px, 35px, 0)
-            scale(1);
+            translate3d(-30px, 35px, 0) scale(1);
     }
 }
 
@@ -204,12 +195,10 @@ body {
     line-height: 1.1;
 
     background:
-        linear-gradient(
-            90deg,
+        linear-gradient(90deg,
             #ffffff,
             #60a5fa,
-            #8b5cf6
-        );
+            #8b5cf6);
 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -238,11 +227,9 @@ body {
     margin-bottom: 15px;
 
     background:
-        linear-gradient(
-            90deg,
+        linear-gradient(90deg,
             #60a5fa,
-            #8b5cf6
-        );
+            #8b5cf6);
 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -273,12 +260,10 @@ body {
     border-radius: 50%;
 
     background:
-        radial-gradient(
-            circle,
+        radial-gradient(circle,
             rgba(96, 165, 250, 0.28),
             rgba(139, 92, 246, 0.16),
-            transparent 68%
-        );
+            transparent 68%);
 
     animation:
         profileGlow 5s ease-in-out infinite alternate;
@@ -300,11 +285,9 @@ body {
     padding: 6px;
 
     background:
-        linear-gradient(
-            135deg,
+        linear-gradient(135deg,
             #60a5fa,
-            #8b5cf6
-        );
+            #8b5cf6);
 
     box-shadow:
         0 0 35px rgba(96, 165, 250, 0.22);
@@ -345,11 +328,9 @@ body {
     text-decoration: none;
 
     background:
-        linear-gradient(
-            90deg,
+        linear-gradient(90deg,
             #60a5fa,
-            #8b5cf6
-        );
+            #8b5cf6);
 
     box-shadow:
         0 10px 30px rgba(96, 165, 250, 0.18);
@@ -364,8 +345,7 @@ body {
 
 .resume-btn:hover {
     transform:
-        translateY(-4px)
-        scale(1.05);
+        translateY(-4px) scale(1.05);
 
     box-shadow:
         0 0 28px rgba(139, 92, 246, 0.65);
@@ -383,12 +363,10 @@ body {
     border-radius: 50%;
 
     background:
-        radial-gradient(
-            circle,
+        radial-gradient(circle,
             rgba(96, 165, 250, 0.27),
             rgba(139, 92, 246, 0.18),
-            transparent 70%
-        );
+            transparent 70%);
 
     filter: blur(38px);
 
@@ -454,8 +432,7 @@ body {
 
     .home {
         padding:
-            55px 20px
-            45px;
+            55px 20px 45px;
     }
 
     .h-content h1 {
@@ -539,4 +516,3 @@ body {
         animation: none;
     }
 }
-

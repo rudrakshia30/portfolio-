@@ -4,11 +4,9 @@
   box-sizing: border-box;
 
   background:
-    radial-gradient(
-      circle at 50% 70%,
+    radial-gradient(circle at 50% 70%,
       rgba(123, 97, 255, 0.12),
-      transparent 35%
-    ),
+      transparent 35%),
     #030712;
 
   color: white;
@@ -67,12 +65,10 @@
   font-weight: 700;
   line-height: 1.1;
 
-  background: linear-gradient(
-    90deg,
-    #ffffff,
-    #60a5fa,
-    #8b5cf6
-  );
+  background: linear-gradient(90deg,
+      #ffffff,
+      #60a5fa,
+      #8b5cf6);
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -140,12 +136,10 @@
   font-weight: 600;
   letter-spacing: 1.5px;
 
-  background: linear-gradient(
-    90deg,
-    #ffffff,
-    #60a5fa,
-    #8b5cf6
-  );
+  background: linear-gradient(90deg,
+      #ffffff,
+      #60a5fa,
+      #8b5cf6);
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -221,11 +215,9 @@
 }
 
 .calendar-scroll::-webkit-scrollbar-thumb {
-  background: linear-gradient(
-    90deg,
-    #60a5fa,
-    #8b5cf6
-  );
+  background: linear-gradient(90deg,
+      #60a5fa,
+      #8b5cf6);
   border-radius: 20px;
 }
 

@@ -35,14 +35,14 @@ function App() {
         return
       }
 
-      cursor.style.left =event.clientX + 'px'
-      cursor.style.top =event.clientY + 'px'
+      cursor.style.left = event.clientX + 'px'
+      cursor.style.top = event.clientY + 'px'
     }
 
-    window.addEventListener('mousemove',moveCursor)
+    window.addEventListener('mousemove', moveCursor)
 
     return () => {
-      window.removeEventListener('mousemove',moveCursor)
+      window.removeEventListener('mousemove', moveCursor)
     }
   }, [])
 
@@ -68,11 +68,11 @@ function App() {
         <div className="website-content">
           <Navbar />
           <Routes>
-            <Route path="/" element={<About />}/>
-            <Route path="/contact" element={<Contact />}/>
-            <Route path="/skills" element={<Skill />}/>
-            <Route path="/github" element={<Git />}/>
-            <Route path="/projects" element={<Project />}/>
+            <Route path="/" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/skills" element={<Skill />} />
+            <Route path="/github" element={<Git />} />
+            <Route path="/projects" element={<Project />} />
           </Routes>
         </div>
       </div>

@@ -197,7 +197,6 @@
   font-size: 15px;
 }
 
-/* Allows calendar to scroll on small screens */
 .calendar-scroll {
   width: 100%;
   overflow-x: auto;

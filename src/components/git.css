@@ -229,7 +229,6 @@
   border-radius: 20px;
 }
 
-/* Loading and error message */
 .github-status-message {
   min-height: 75vh;
   display: flex;

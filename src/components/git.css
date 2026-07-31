@@ -238,14 +238,25 @@
 /* Loading and error message */
 .github-status-message {
   min-height: 75vh;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
-  background: #030712;
-  color: white;
   text-align: center;
+  color: white;
+
+  background:
+    radial-gradient(circle at top left,
+      rgba(59,130,246,.18),
+      transparent 35%),
+    radial-gradient(circle at top right,
+      rgba(139,92,246,.18),
+      transparent 35%),
+    linear-gradient(
+      135deg,
+      #0f172a 0%,
+      #111827 45%,
+      #1e1b4b 100%
+    );
 }
 
 /* Tablet */

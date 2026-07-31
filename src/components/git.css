@@ -213,7 +213,6 @@
   color: #dbeafe;
 }
 
-/* Scrollbar */
 .calendar-scroll::-webkit-scrollbar {
   height: 7px;
 }

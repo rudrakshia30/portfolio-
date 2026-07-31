@@ -16,12 +16,10 @@
       rgba(96, 165, 250, 0.12),
       transparent 45%),
 
-    linear-gradient(
-      135deg,
+    linear-gradient(135deg,
       #0f172a 0%,
       #111827 45%,
-      #1e1b4b 100%
-    );
+      #1e1b4b 100%);
 
   color: white;
   font-family: "Poppins", sans-serif;
@@ -239,17 +237,15 @@
 
   background:
     radial-gradient(circle at top left,
-      rgba(59,130,246,.18),
+      rgba(59, 130, 246, .18),
       transparent 35%),
     radial-gradient(circle at top right,
-      rgba(139,92,246,.18),
+      rgba(139, 92, 246, .18),
       transparent 35%),
-    linear-gradient(
-      135deg,
+    linear-gradient(135deg,
       #0f172a 0%,
       #111827 45%,
-      #1e1b4b 100%
-    );
+      #1e1b4b 100%);
 }
 
 @media (max-width: 950px) {
